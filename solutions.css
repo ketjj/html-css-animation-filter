@@ -94,3 +94,37 @@
 }
 
 /* Esercizio 10 */
+
+.ex-10-icon {
+  animation: rotate 1s infinite linear;
+}
+
+@keyframes rotate{
+  0% { 
+    transform: rotate(0deg); 
+} 100% { 
+    transform: rotate(360deg); 
+}
+}
+
+
+/* Esercizio 11 */
+
+.ex-11-icon:hover{
+  animation: forward-back .4s ease; 
+}
+
+@keyframes forward-back{
+  0% {
+    transform: rotate (0deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+/* Esercizio 12 */
