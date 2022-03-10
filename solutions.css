@@ -115,16 +115,68 @@
 }
 
 @keyframes forward-back{
-  0% {
+  0%{
     transform: rotate (0deg);
   }
-  75% {
+  75%{
     transform: rotate(270deg);
   }
-  100% {
+  100%{
     transform: rotate(0deg);
   }
 }
 
 
 /* Esercizio 12 */
+
+
+.ex-12-button:hover .ex-12-top-white {
+  animation: top-button 2s linear;
+}
+
+@keyframes top-button {
+  0%{
+      left: 10%;
+  }
+  50%{
+      left: calc(100% - 60px);
+  }
+  0%{
+      left: 10%;
+  }
+}
+
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: bottom-button 2s linear;
+}
+
+@keyframes bottom-button {
+  0%{
+      right: 10%;
+  }
+  50%{
+      right: calc(100% - 60px);
+  }
+  0%{
+      right: 10%;
+  }
+}
+
+/* Esercizio 13 */
+
+.ex-13-button:hover .ex-13-top-white {
+  animation: top-btn 3s linear;
+}
+
+@keyframes top-btn {
+  0%{
+    left: 10%;
+  }
+  20%
+
+
+  }
+}
+
+/* Non lo so come fare :)))...Non sono riuscita a fare scendere il box, con il suo width è difficile...Quindi lo termino qua.  Non vedo l'ora di vedere come sarebbe la soluzione  */
